@@ -5,6 +5,22 @@ Simple chat app to practice Vue.js and Firebase
 ```
 npm install
 ```
+### Firebase setup
+```
+Put your firebase config in src/firebaseconfig.ts like this:
+
+export default{
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: "",
+    databaseURL: ""
+}
+```
+
 
 ### Compiles and hot-reloads for development
 ```
