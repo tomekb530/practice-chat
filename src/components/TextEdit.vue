@@ -47,7 +47,7 @@
         }
     }
     const value = ref('');
-    const openEmoji = (ev) => {
+    const openEmoji = (ev: any) => {
         op.value.toggle(ev);
     }
 </script>
